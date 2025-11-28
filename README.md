@@ -11,6 +11,7 @@
 ### II. 项目结构 
 
 本项目的代码和资源文件按以下结构组织：
+```dictionary
 CellposeOnnx/
 ├── images/            # 存放用于测试的输入图像文件
 ├── models/            # 存放 ONNX 模型文件
@@ -18,7 +19,7 @@ CellposeOnnx/
 ├── Cellpose_core.h    # 核心函数声明 (头文件)
 ├── main.cpp           # 程序入口文件，负责加载图像和调用核心分割函数
 └── CMakeLists.txt     # CMake 构建配置文件
-
+```
 ### III. 如何运行
 
 本项目使用 **CMake** 作为构建系统。在執行前，請確保您的環境已安裝 **CMake**、**OpenCV**、**LibTorch** 和 **ONNX Runtime** C++ 庫。
